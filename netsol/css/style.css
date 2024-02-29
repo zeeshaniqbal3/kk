@@ -1,0 +1,130 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height:1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    max-height: 50px;
+}
+.logo{
+   width:60%;
+   color: rgba(0, 0, 0, 0.493);
+   text-align: center;
+}
+ 
+.logo img{
+    height: 50px;
+}
+.logo:hover{
+    background:linear-gradient(to bottom,rgb(0 0 0),rgb(0 0 0 / 35%));
+}
+.button{
+    width: 39%;
+    padding: 3px;
+    vertical-align: middle;
+    text-align: end;
+    
+}
+.fa-bars{
+    font-size: 30px;
+    
+}
+i:hover{
+    color:red;
+}
+.header2{
+    background-image: linear-gradient(to bottom,rgb(0 0 0),rgb(0 0 0 / 35%)), url(../image/banner.jpg);
+    background-size: cover;
+    min-height: 700px;
+    padding-top: 120px;
+    padding-left: 220px;
+}
+.main{
+    color:white;
+    width: 460px;
+background-color:blue;
+padding: 50px;
+}
+.main h1{
+       font-size: 70px;
+}
+.main p{
+    font-size: 20px;
+}
+.main a{
+    text-decoration: underline; 
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(255, 0, 0)
+}
+.btn2{
+    width: 250px;
+    border-radius: 50px;
+    padding: 1em;
+    border:0ch;
+    color: blue;
+    font-size: 20px;
+    
+}
+ .container{
+    text-align: center;
+
+ }
+ .row{
+    text-align: center;
+    min-height: 18rem;
+    max-height: 18rem;
+ }
+ .c-1{
+    background-color: blue;
+ }
+.card{
+    position: relative;
+    top: 130px;
+
+  }
+  .d-i-b {
+    display: inline-block;
+}
+
+.w-27{
+    width: 27%;
+}
+.card img{
+    border-radius: 100%;
+ }
+ .footer{
+    width: 33%;
+
+ }
+ .line{
+    position: relative;
+    top: 20px;
+    border-left: 2px solid white;
+    height: 200px;
+ }
+ .fooot{
+    display: flex;
+    background-color: rgb(59, 57, 46);
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+
+ .footer ul a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer ul li{
+    margin: 2em;
+    list-style: none;
+}
+a:hover{
+    font-size: 40px;
+}

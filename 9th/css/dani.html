@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dani.css">
+    <script>
+        function hello(){
+            alert("Danial mubashir");
+        }
+        function hi(){
+            alert("bhatti");
+        }
+        let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+    </script>
+    
+</head>
+<body>
+    <div class="parent">
+    <div class="container">
+        
+        <div class="header">
+            <div class="logo">
+                <h1>Driver  fly</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Home</button>
+                        <div class="dropdown-content" style="left:0;">
+                        <a href="#">faq</a>
+                        <a href="#">resource</a>
+                        <a href="#">get your cdl</a>
+                        <a href="#">get your cdl</a>
+                        <a href="#">get your cdl</a>
+                        <a href="#">get your cdl</a>
+                        </div>
+                      </div>
+                    
+                </ul>
+            </div>
+            <div class="button">
+                <button onclick="hello()">login</button>
+                <button  onmousehover="hi()">sign up</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div class="wrap">
+    <h2>Automatic Slideshow</h2>
+    <p>Change image every 2 seconds:</p>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/bhatti.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="bhatti.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="bhatti.png" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+</div>
+
+
+
+
+    
+    
+</body>
+</html>
+
+
+

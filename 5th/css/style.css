@@ -1,0 +1,140 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height:1.2;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+background-color: rgba(1, 30, 175, 0.658);
+}
+.container-wrapper{
+    width: 1150px;
+    padding-top:50px;
+    margin:auto;
+    
+
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.logo img{
+    height: 68px;
+    width: auto;
+}
+.menu{
+    width: 79%;
+    display: inline-block;
+    vertical-align: middle;
+    
+    margin-bottom:20px ;
+}
+.m-1{
+    text-align: end;
+}
+
+.m-2{
+    text-align:start;
+}
+.menu li{
+    display: inline-block;
+    padding:0px 20px;
+    list-style: none;
+    vertical-align: top;
+}
+.menu li a{
+    padding: 5px;
+}
+.yel{
+    color: yellow;
+}
+.call{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: end;
+    margin-bottom: 20px;
+}
+.line{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    border-left: 2px solid white;
+    height: 20px;
+ }
+ .fa-brands:hover{
+        color:rgba(5, 5, 5, 0.007);
+ }
+ .dropdown-content {
+    display: none;
+    position:relative;
+    width: max-content;
+    background-color: #f9f9f994;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    color:white;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    background-color: rgb(228, 33, 7);
+}
+.boody{
+    background-image: linear-gradient(to bottom, rgb(145 147 152 / 85%), rgb(189 191 195)), url(../images/banner.jpg);
+    background-size: cover;
+    min-height: 700px
+}
+.footer{
+    background-color: rgba(1, 30, 175, 0.658);
+    
+
+}
+.foot{
+    width: 30%;
+   display: inline-block;
+   margin-bottom: 50px;
+   padding-left: 20px;
+}
+.container-wrapper{
+    width: 1120px;
+    padding-top:80px;
+    margin:auto;   
+
+}
+.foot li a{
+    padding: 5px;
+}
+.foot li{
+    list-style: none;
+    margin-top: 1em;
+}
+.line1{
+    display: inline-block;
+    position: relative;
+    top:30px;
+    border-right: 2px solid white;
+    height: 170px;
+ }
+ .container-wrapper1{
+    width: 1120px;
+    margin:auto;
+
+ }
+ .fa-brands{
+    font-size: 30px;
+    color: white;
+ }
+
+ 

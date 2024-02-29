@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+
+.container{
+    padding-top: 10px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1400px;
+    background-color:white;
+
+}
+.header{
+    display: flex;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    width:20% ;
+    text-align: center;
+}
+.logo:hover{
+    
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.logo img{
+    width:140px;
+}
+.list{
+    width:79%;
+    text-align: end;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.list ul{
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: end;
+}
+.list ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.list ul a{
+    text-decoration: none;
+}
+
+.contact_btn { 
+    border: 0;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn-0{
+    background:aquamarine;
+}
+.btn-1{
+    background:rgb(185, 27, 27);
+}
+.main{
+    padding: 5px;
+    margin-top: 20px;
+    display: inline;
+    
+}
+.text{
+    display: inline-block;
+    vertical-align:top;
+    width: 49%;
+}
+.image{
+    display: inline-block;
+    width: 49%;
+    text-align: end;
+
+}
+.image img{
+    border-radius: 100%;
+    width: 60%;
+}
+.conf{
+    color: aquamarine;
+}
+.text p{
+    margin: 15px 0;
+    font-size: 25px;
+    
+}
+.text h1{
+    margin: 15px 0;
+    font-size: 50px;
+    
+}
+.text h3{
+    margin: 15px 0;
+    font-size: 37px;
+    
+}
+.d-i-b {
+    display: inline-block;
+}
+.container2{
+    margin-top: 70px;
+    text-align: center;
+}
+.w-27{
+    width: 27%;
+}
+.card img{
+    border-radius: 100%;
+}
+.middle{
+    color: rgba(0, 0, 0, 0.986);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(127, 255, 212);
+
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+}
+.w-22{
+    width: 22%;
+}
+.st ul li{
+    margin: 2em;
+    list-style: none;
+}
+.st ul a{
+    
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+button:hover{
+    color:yellow;
+}
